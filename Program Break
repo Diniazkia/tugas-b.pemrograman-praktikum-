@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main (){
+	//program break
+	for (int i = 1 ; i <= 60 ; i++){
+		if (i > 30) break;
+		cout << i << endl;
+	}
+	return 0;
+}
